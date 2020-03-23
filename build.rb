@@ -15,6 +15,20 @@ class Album
     @album = album
   end
 
+  def amazon
+    @amazon ||= album["amazon"]
+  end
+
+  def apple
+    @apple ||= album["apple"]
+  end
+
+  def credits
+    @credits ||= if album["credits"]
+      album["credits"].join("<br />")
+    end
+  end
+
   def date
     @date ||= Date.parse(album.fetch("date"))
   end
@@ -33,6 +47,12 @@ class Album
 
   def month_name
     @month_name ||= Date::MONTHNAMES[month]
+  end
+
+  def musicians
+    @musicians ||= if album["musicians"]
+      album["musicians"].join("<br />")
+    end
   end
 
   def slug

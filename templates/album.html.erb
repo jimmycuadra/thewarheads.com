@@ -11,6 +11,26 @@
     <p><%= @album.description %></p>
   <% end -%>
 
+  <% if @album.amazon -%>
+    <p><a href="<%= @album.amazon %>">Buy on Amazon</a></p>
+  <% end -%>
+
+  <% if @album.apple -%>
+    <p><a href="<%= @album.apple %>">Listen on Apple Music or buy on iTunes</a></p>
+  <% end -%>
+
+  <% if @album.credits -%>
+    <h2>Credits</h2>
+
+    <p><%= @album.credits %></p>
+  <% end -%>
+
+  <% if @album.musicians -%>
+    <h2>Musicians</h2>
+
+    <p><%= @album.musicians %></p>
+  <% end -%>
+
   <h2>Track listing</h2>
 
   <table>
