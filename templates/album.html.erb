@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title><%= @album.fetch("title") %> - The Warheads</title>
+</head>
+<body>
+  <h1><%= @album.fetch("title") %></h1>
+
+  <table>
+    <tr>
+      <th>Title</th>
+      <th>Time</th>
+    </tr>
+    <% @album.fetch("tracks").each do |track| -%>
+    <tr>
+      <td><%= track.fetch("title") %></td>
+      <td><%= track.fetch("time") { "" } %></td>
+    </tr>
+    <% end -%>
+  </table>
+</body>
+</html>

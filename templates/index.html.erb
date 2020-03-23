@@ -1,0 +1,14 @@
+<html>
+<head>
+  <title>Discography - The Warheads</title>
+</head>
+<body>
+  <h1>Discography - The Warheads</h1>
+
+  <ul>
+    <% @albums.each do |album| -%>
+      <li><a href="<%= album.slug %>.html"><%= album.title %> (<%= album.year %>)</li>
+    <% end -%>
+  </ul>
+</body>
+</html>
