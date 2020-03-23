@@ -19,6 +19,22 @@ class Album
     @date ||= Date.parse(album.fetch("date"))
   end
 
+  def day
+    @day ||= date.day
+  end
+
+  def description
+    @description || album["description"]
+  end
+
+  def month
+    @month ||= date.month
+  end
+
+  def month_name
+    @month_name ||= Date::MONTHNAMES[month]
+  end
+
   def slug
     @slug ||= title.downcase.gsub(/\s+/, "-").gsub(/[^\w-]+/, "")
   end
@@ -27,12 +43,22 @@ class Album
     @title ||= album.fetch("title")
   end
 
-  def to_html
-    ALBUM_TEMPLATE.result(binding)
+  def tracks
+    @tracks ||= album.fetch("tracks")
   end
 
   def year
     @year ||= date.year
+  end
+end
+
+class AlbumBinding
+  def initialize(album)
+    @album = album
+  end
+
+  def to_html
+    ALBUM_TEMPLATE.result(binding)
   end
 end
 
@@ -55,6 +81,6 @@ end
 
 albums.each do |album|
   File.open("html/#{album.slug}.html", "w") do |f|
-    f.write(album.to_html)
+    f.write(AlbumBinding.new(album).to_html)
   end
 end

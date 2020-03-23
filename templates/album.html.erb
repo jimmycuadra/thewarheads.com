@@ -1,16 +1,24 @@
 <html>
 <head>
-  <title><%= @album.fetch("title") %> - The Warheads</title>
+  <title><%= @album.title %> - The Warheads</title>
 </head>
 <body>
-  <h1><%= @album.fetch("title") %></h1>
+  <h1><%= @album.title %></h1>
+
+  <p>Released <%= @album.month_name %> <%= @album.day %>, <%= @album.year %></p>
+
+  <% if @album.description -%>
+    <p><%= @album.description %></p>
+  <% end -%>
+
+  <h2>Track listing</h2>
 
   <table>
     <tr>
       <th>Title</th>
       <th>Time</th>
     </tr>
-    <% @album.fetch("tracks").each do |track| -%>
+    <% @album.tracks.each do |track| -%>
     <tr>
       <td><%= track.fetch("title") %></td>
       <td><%= track.fetch("time") { "" } %></td>
