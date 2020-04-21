@@ -1,0 +1,11 @@
+[package]
+name = "thewarheads"
+version = "0.1.0"
+authors = ["Jimmy Cuadra <jimmy@jimmycuadra.com>"]
+edition = "2018"
+publish = false
+
+[dependencies]
+chrono = { version = "0.4.11", features = ["serde"] }
+serde = { version = "1.0.106", features = ["derive"] }
+serde_yaml = "0.8.11"
