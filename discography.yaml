@@ -757,15 +757,29 @@
     - title: "Tanger En Deux Joures"
       time: "4:21"
 - title: "Like a Bullet"
-  date: "2010"
+  date: "2010-10-30"
   tracks:
-    - title:
-      time:
+    - title: "Liar"
+      time: "1:34"
+    - title: "Siren Call"
+      time: "2:32"
+    - title: "Like a Bullet"
+      time: "2:23"
+    - title: "Going Down the Bar"
+      time: "2:25"
 - title: "Field Recordings"
-  date: "2011"
+  date: "2011-5-5"
   tracks:
-    - title:
-      time:
+    - title: "Morning"
+      time: "3:00"
+    - title: "Evening"
+      time: "3:36"
+    - title: "Raven"
+      time: "1:00"
+    - title: "Chant"
+      time: "3:12"
+    - title: "Blessing"
+      time: "4:24"
 - title: "Re-in-fusion"
   date: "2010-07-27"
   amazon: "https://www.amazon.com/Re-in-fusion/dp/B003AD4WCG/"
