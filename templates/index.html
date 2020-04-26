@@ -16,14 +16,10 @@
   <h2>Albums</h2>
 
   <ul>
-    <% @albums.each do |album| -%>
-      <li><a href="<%= album.slug %>.html"><%= album.title %> (<%= album.year %>)</a></li>
-    <% end -%>
+    {% for album in albums %}
+    <li><a href="{{ album.slug() }}.html">{{ album.title }} ({{ album.year() }})</a></li>
+    {% endfor %}
   </ul>
-
-  <h2>Extended plays</h2>
-
-  <h2>Singles</h2>
 
   <h2>Links</h2>
 
@@ -39,7 +35,7 @@
   </ul>
 
   <footer>
-    <small>Copyright © <%= Time.now.year %> The Warheads Projects. All rights reserved.</small>
+    <small>Copyright © 2020 The Warheads Projects. All rights reserved.</small>
   </footer>
 </body>
 </html>

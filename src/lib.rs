@@ -30,6 +30,18 @@ pub struct Album {
 }
 
 impl Album {
+    pub fn day(&self) -> String {
+        self.date.format("%e").to_string().trim().to_string()
+    }
+
+    pub fn month_name(&self) -> String {
+        self.date.format("%B").to_string()
+    }
+
+    pub fn year(&self) -> String {
+        self.date.format("%Y").to_string()
+    }
+
     pub fn slug(&self) -> String {
         MULTIPLE_DASHES
             .replace_all(
@@ -49,13 +61,23 @@ pub struct Track {
     pub time: String,
 }
 
+#[derive(Template)]
+#[template(path = "index.html")]
+pub struct Collection {
+    pub albums: Vec<Album>,
+}
+
 pub fn generate_html(path: &Path) -> Result<(), Box<dyn Error>> {
     let file = File::open(path)?;
-    let discography: Vec<Album> = serde_yaml::from_reader(file)?;
+    let mut discography: Vec<Album> = serde_yaml::from_reader(file)?;
+    discography.sort_by(|a, b| a.title.partial_cmp(&b.title).unwrap());
 
-    for album in discography {
+    for album in discography.iter() {
         fs::write(format!("html/{}.html", album.slug()), album.render()?)?;
     }
+
+    let collection = Collection { albums: discography };
+    fs::write("html/index.html", collection.render()?)?;
 
     Ok(())
 }
