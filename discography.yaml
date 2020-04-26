@@ -825,7 +825,6 @@
       time: "4:59"
 - title: "La nuit appartient à Lily Niagara"
   date: "2015-12-21"
-  amazon: ""
   apple: "https://music.apple.com/us/album/la-nuit-appartient-a-lily-niagara-single/1067551778"
   credits:
     - "All songs are Composed,Performed and Assembled by The Warheads"
@@ -836,7 +835,6 @@
       time: "7:04"
 - title: "La passion de St. Claire"
   date: "2015-12-22"
-  amazon: ""
   apple: "https://music.apple.com/us/album/la-passion-de-st-claire-single/1067557010"
   credits:
     - "All songs are Composed,Performed and Assembled by The Warheads"
@@ -847,7 +845,6 @@
       time: "6:51"
 - title: "Fiel"
   date: "2015-12-23"
-  amazon: ""
   apple: "https://music.apple.com/us/album/fiel-single/1066950040"
   credits:
     - "All songs are Composed,Performed and Assembled by The Warheads"
@@ -858,7 +855,6 @@
       time: "6:45"
 - title: "Love Music"
   date: "2015-12-24"
-  amazon: ""
   apple: "https://music.apple.com/us/album/love-music-single/1066993169"
   credits:
     - "All songs are Composed,Performed and Assembled by The Warheads"
@@ -869,7 +865,6 @@
       time: "7:18"
 - title: "Havana Nights"
   date: "2015-12-25"
-  amazon: ""
   apple: "https://music.apple.com/us/album/havana-nights-single/1066973298"
   credits:
     - "All songs are Composed,Performed and Assembled by The Warheads"
@@ -880,7 +875,6 @@
       time: "5:37"
 - title: "Frankie and Johnny"
   date: "2015-12-25"
-  amazon: ""
   apple: "https://music.apple.com/us/album/frankie-and-johnny-single/1066986688"
   credits:
     - "All songs are Composed,Performed and Assembled by The Warheads"
@@ -891,7 +885,6 @@
       time: "5:52"
 - title: "Familiar Fruit"
   date: "2015-12-26"
-  amazon: ""
   apple: "https://music.apple.com/us/album/familiar-fruit-single/1066951364"
   credits:
     - "All songs are Composed,Performed and Assembled by The Warheads"
@@ -902,7 +895,6 @@
       time: "5:29"
 - title: "My Dinner with Frida"
   date: "2015-12-27"
-  amazon: ""
   apple: "https://music.apple.com/us/album/my-dinner-with-frida-single/1066971694"
   credits:
     - "All songs are Composed,Performed and Assembled by The Warheads"
@@ -913,7 +905,6 @@
       time: "7:09"
 - title: "Indara"
   date: "2015-12-28"
-  amazon: ""
   apple: "https://music.apple.com/us/album/indara-single/1067556846"
   credits:
     - "All songs are Composed,Performed and Assembled by The Warheads"
@@ -924,7 +915,6 @@
       time: "6:29"
 - title: "Back Door"
   date: "2015-12-29"
-  amazon: ""
   apple: "https://music.apple.com/us/album/back-door-single/1067552960"
   credits:
     - "All songs are Composed,Performed and Assembled by The Warheads"
@@ -935,7 +925,6 @@
       time: "6:44"
 - title: "Down Argentine Way"
   date: "2015-12-30"
-  amazon: ""
   apple: "https://music.apple.com/us/album/down-argentine-way-single/1065231418"
   credits:
     - "All songs are Composed,Performed and Assembled by The Warheads"
@@ -946,7 +935,6 @@
       time: "6:30"
 - title: "Refrain 1959"
   date: "2015-12-31"
-  amazon: ""
   apple: "https://music.apple.com/us/album/refrain-1959-single/1067558883"
   credits:
     - "All songs are Composed,Performed and Assembled by The Warheads"
@@ -957,7 +945,6 @@
       time: "5:20"
 - title: "Miss Doda Has Left the Stage"
   date: "2015-12-31"
-  amazon: ""
   apple: "https://music.apple.com/us/album/miss-doda-has-left-the-stage-single/1065241938"
   credits:
     - "All songs are Composed,Performed and Assembled by The Warheads"
@@ -968,7 +955,6 @@
       time: "7:36"
 - title: "Die Leidenschaft Von St. Veronika"
   date: "2016-01-01"
-  amazon: ""
   apple: "https://music.apple.com/us/album/die-leidenschaft-von-st-veronika-single/1066947776"
   credits:
     - "All songs are Composed,Performed and Assembled by The Warheads"
@@ -979,71 +965,184 @@
       time: "6:56"
 - title: "Summer Samba"
   date: "2016-08-29"
-  amazon: ""
   apple: "https://music.apple.com/us/album/summer-samba-single/1149489889"
   tracks:
     - title: "Summer Samba"
       time: "5:20"
 - title: "Samba Suave"
   date: "2016-08-29"
-  amazon: ""
   apple: "https://music.apple.com/us/album/samba-suave-single/1149458789"
   tracks:
     - title: "Samba Suave"
       time: "5:29"
 - title: "Samba De Alma Negra (feat. Gregg Mazel)"
   date: "2016-08-29"
-  amazon: ""
   apple: "https://music.apple.com/us/album/samba-de-alma-negra-feat-gregg-mazel-single/1149489904"
   tracks:
     - title: "Samba De Alma Negra (feat. Gregg Mazel)"
       time: "6:24"
 - title: "Our Last Samba (feat. Gregg Mazel)"
   date: "2016-08-29"
-  amazon: ""
   apple: "https://music.apple.com/us/album/our-last-samba-feat-gregg-mazel-single/1153281416"
   tracks:
     - title: "Our Last Samba (feat. Gregg Mazel)"
       time: "6:24"
 - title: "Fashion with Strings"
   date: "2016-08-29"
-  amazon: ""
   apple: "https://music.apple.com/us/album/fashion-with-strings-single/1153281562"
   tracks:
     - title: "Fashion with Strings"
       time: "5:56"
 - title: "Bombay Samba"
   date: "2016-08-29"
-  amazon: ""
   apple: "https://music.apple.com/us/album/bombay-samba-single/1149516183"
   tracks:
     - title: "Bombay Samba"
       time: "5:20"
 - title: "All Summer Long"
   date: "2016-08-29"
-  amazon: ""
   apple: "https://music.apple.com/us/album/all-summer-long-single/1149516701"
   tracks:
     - title: "All Summer Long"
       time: "6:24"
 - title: "Underage for Life"
   date: "2019-04-24"
-  amazon: ""
   apple: "https://music.apple.com/us/album/underage-for-life-single/1466568658"
   tracks:
     - title: "Underage for Life"
       time: "6:24"
 - title: "Fatal Woman"
   date: "2019-04-27"
-  amazon: ""
   apple: "https://music.apple.com/us/album/fatal-woman-single/1467859411"
   tracks:
     - title: "Fatal Woman"
       time: "6:24"
 - title: "Daughters of the Desert"
   date: "2019-04-27"
-  amazon: ""
   apple: "https://music.apple.com/us/album/daughters-of-the-desert-single/1467850079"
   tracks:
     - title: "Daughters of the Desert"
       time: "6:56"
+- title: "The Omnibus Progressions"
+  date: "2010-06-16" # Month and day based on MP3 files
+  tracks: []
+- title: "Intifada Dada"
+  date: "2010-10-29" # Month and day based on MP3 files
+  tracks: []
+- title: "Bombshell"
+  date: "2011-04-25" # Month and day based on MP3 files
+  tracks: []
+- title: "Teenage Kicks"
+  date: "2011-06-09" # Month and day based on MP3 files
+  tracks: []
+- title: "Might Makes Right"
+  date: "2011-04-06" # Month and day based on MP3 files
+  tracks: []
+- title: "Romance & Risk"
+  date: "2010-01-01" # MP3 files don't match website, month and day are placeholders
+  tracks: []
+- title: "In Memoriam"
+  date: "2011-09-01" # Month and day based on MP3 files
+  tracks: []
+- title: "Whirlwind"
+  date: "2011-10-21" # Month and day based on MP3 files
+  tracks: []
+- title: "Vampyre"
+  date: "2012-01-12" # Month and day based on MP3 files
+  tracks: []
+- title: "Lovestreams"
+  date: "2012-01-30" # Month and day based on MP3 files
+  tracks: []
+- title: "Supervixen"
+  date: "2011-09-26" # Month and day based on MP3 files
+  tracks: []
+- title: "Ultravixen"
+  date: "2012-01-30" # Month and day based on MP3 files
+  tracks: []
+- title: "Ultrasupervixen"
+  date: "2012-02-29" # Month and day based on MP3 files
+  tracks: []
+- title: "2012 Tour"
+  date: "2012-03-03" # From the album image
+  tracks: []
+- title: "The Interview"
+  date: "2011-01-12"
+  tracks: []
+- title: "Toe"
+  date: "2012-04-10" # Month and day based on MP3 files
+  tracks: []
+- title: "Sister Sister Mercy Mercy"
+  date: "2012-05-21" # Month and day based on MP3 files
+  tracks: []
+- title: "Burokunburossamu"
+  date: "2010-11-01" # Month and day based on MP3 files
+  tracks: []
+- title: "The Sun and I"
+  date: "2012-07-25" # Month and day based on MP3 files
+  tracks: []
+- title: "Live At ADX Florence"
+  date: "2011-01-26" # Month and day based on MP3 files
+  tracks: []
+- title: "Live At Guantanamo Bay, Again"
+  date: "2012-09-13" # Month and day based on MP3 files
+  tracks: []
+- title: "Against Her Heart"
+  date: "2011-08-11" # Month and day based on MP3 files
+  tracks: []
+- title: "North"
+  date: "2012-10-05" # Month and day based on MP3 files
+  tracks: []
+- title: "Remembrance of Things Past Tense"
+  date: "2012-11-28" # Month and day based on MP3 files
+  tracks: []
+- title: "Goddess"
+  date: "2011-01-03" # Month and day based on MP3 files
+  tracks: []
+- title: "The Beast"
+  date: "2012-12-23" # Month and day based on MP3 files
+  tracks: []
+- title: "Black Dog Breath"
+  date: "2013-01-14" # Month and day based on MP3 files
+  tracks: []
+- title: "Rhinoceros"
+  date: "2013-02-22" # Month and day based on MP3 files
+  tracks: []
+- title: "On the Gorilla Trail"
+  date: "2013-03-18" # Month and day based on MP3 files
+  tracks: []
+- title: "The Huntress"
+  date: "2013-04-05" # Month and day based on MP3 files
+  tracks: []
+- title: "The Massacre"
+  date: "2013-05-01" # Month and day based on MP3 files
+  tracks: []
+- title: "Passage to Tangiers"
+  date: "2013-06-21" # Month and day based on MP3 files
+  tracks: []
+- title: "From the Archive"
+  date: "2013-10-08" # Month and day based on MP3 files
+  tracks: []
+- title: "Sinema"
+  date: "2013-10-21" # Month and day based on MP3 files
+  tracks: []
+- title: "Let the Angels Weep"
+  date: "2013-11-03" # Month and day based on MP3 files
+  tracks: []
+- title: "Back in Black"
+  date: "2013-11-03" # Month and day based on MP3 files
+  tracks: []
+- title: "That Girl"
+  date: "2014-01-03" # Website says 2013, MP3 files created on this date
+  tracks: []
+- title: "Smoke and Desire"
+  date: "2014-01-18" # Month and day based on MP3 files
+  tracks: []
+- title: "Groovin'"
+  date: "2014-03-02" # Month and day based on MP3 files
+  tracks: []
+- title: "Faces"
+  date: "2014-04-02" # Month and day based on MP3 files
+  tracks: []
+- title: "The Disturbance of Memories"
+  date: "2014-05-14" # Month and day based on MP3 files
+  tracks: []
