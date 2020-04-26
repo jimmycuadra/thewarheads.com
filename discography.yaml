@@ -1656,3 +1656,16 @@
       time: "4:48"
     - title: "Walks With Desire"
       time: "6:00"
+- title: "Sorrow's Spy"
+  date: "2010-08-08" # Month and day based on MP3 files
+  tracks:
+    - title: "Sing To Me of Zion"
+      time: "4:29"
+    - title: "Is It Sleep or Is It Death"
+      time: "2:21"
+    - title: "Cocktails in Babylon"
+      time: "3:23"
+    - title: "But What of That"
+      time: "4:00"
+    - title: "Of Time of Memory of Home"
+      time: "4:06"
