@@ -4,58 +4,69 @@
   <title>{{ title }} | The Warheads</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="description" content="The Warheads are a San Francisco Bay Area production team. Although we are musicians, we specialize in the manipulation, re-arranging, and re-mixing of original compositions, unique sounds, and high-quality audio." />
+  <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" />
   <link rel="shortcut icon" href="static/images/favicon.png" />
 </head>
 <body>
-  <h1>{{ title }}</h1>
+  <div class="container">
+    <div id="header">
+      <div id="logo">
+        <span>
+          <a href="/">The Warheads</a>
+        </span>
+      </div>
+    </div>
 
-  <p>Released {{ self.month_name() }} {{ self.day() }}, {{ self.year() }}</p>
+    <h1>{{ title }}</h1>
 
-  {% if description.is_some() %}
-    <p>{{ description.as_ref().unwrap() }}</p>
-  {% endif %}
+    <p>Released {{ self.month_name() }} {{ self.day() }}, {{ self.year() }}</p>
 
-  {% if amazon.is_some() %}
-    <p><a href="{{ amazon.as_ref().unwrap() }}">Buy on Amazon</a></p>
-  {% endif %}
+    {% if description.is_some() %}
+      <p>{{ description.as_ref().unwrap() }}</p>
+    {% endif %}
 
-  {% if apple.is_some() %}
-    <p><a href="{{ apple.as_ref().unwrap() }}">Listen on Apple Music or buy on iTunes</a></p>
-  {% endif %}
+    {% if amazon.is_some() %}
+      <p><a href="{{ amazon.as_ref().unwrap() }}">Buy on Amazon</a></p>
+    {% endif %}
 
-  {% if credits.is_some() %}
-    <h2>Credits</h2>
+    {% if apple.is_some() %}
+      <p><a href="{{ apple.as_ref().unwrap() }}">Listen on Apple Music or buy on iTunes</a></p>
+    {% endif %}
 
-    <p>
-      {% for credit in credits.as_ref().unwrap() %}
-        {{ credit }}<br />
+    {% if credits.is_some() %}
+      <h2>Credits</h2>
+
+      <p>
+        {% for credit in credits.as_ref().unwrap() %}
+          {{ credit }}<br />
+        {% endfor %}
+      </p>
+    {% endif %}
+
+    {% if musicians.is_some() %}
+      <h2>Musicians</h2>
+
+      <p>
+        {% for musician in musicians.as_ref().unwrap() %}
+          {{ musician }}<br />
+        {% endfor %}
+      </p>
+    {% endif %}
+
+    <h2>Track listing</h2>
+
+    <table>
+      <tr>
+        <th>Title</th>
+        <th>Time</th>
+      </tr>
+      {% for track in tracks %}
+      <tr>
+        <td>{{ track.title }}</td>
+        <td>{{ track.time }}</td>
+      </tr>
       {% endfor %}
-    </p>
-  {% endif %}
-
-  {% if musicians.is_some() %}
-    <h2>Musicians</h2>
-
-    <p>
-      {% for musician in musicians.as_ref().unwrap() %}
-        {{ musician }}<br />
-      {% endfor %}
-    </p>
-  {% endif %}
-
-  <h2>Track listing</h2>
-
-  <table>
-    <tr>
-      <th>Title</th>
-      <th>Time</th>
-    </tr>
-    {% for track in tracks %}
-    <tr>
-      <td>{{ track.title }}</td>
-      <td>{{ track.time }}</td>
-    </tr>
-    {% endfor %}
-  </table>
+    </table>
+  </div>
 </body>
 </html>
