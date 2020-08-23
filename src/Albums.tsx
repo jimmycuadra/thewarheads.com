@@ -1,29 +1,18 @@
 import React from 'react';
+import { AlbumData } from './discography.yaml';
+import Album from './Album'
 
 interface AlbumsProps {
-  albums: Album[],
-}
-
-export interface Album {
-  title: string,
-  date: string,
-  description: string,
-  amazon: string,
-  apple: string,
-  credits: string[],
-  musicians: string[]
-  tracks: Track[],
-}
-
-interface Track {
-  title: string,
-  time: string,
+  discography: AlbumData[],
 }
 
 export default class Albums extends React.Component<AlbumsProps> {
   render() {
-    // <a href="{{ album.slug() }}.html">{{ album.title }} ({{ album.year() }})</a>
-    const albums = this.props.albums.map((item) => <li>{item}</li>);
+    const albums = this.props.discography.map((albumData) => {
+      return (
+        <Album key={albumData.title} albumData={albumData} />
+      );
+    });
 
     return (
       <React.Fragment>

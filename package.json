@@ -17,11 +17,11 @@
     "typescript": "^3.7.5"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
     "postbuild": "react-snap",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -39,6 +39,8 @@
     ]
   },
   "devDependencies": {
+    "react-app-rewire-yaml": "^1.1.0",
+    "react-app-rewired": "^2.1.6",
     "react-snap": "^1.23.0"
   }
 }
