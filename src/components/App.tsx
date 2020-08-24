@@ -6,15 +6,13 @@ import {
 } from 'react-router-dom';
 
 import About from './About';
-import { AlbumModel } from './Album';
+import AlbumModel from '../models/Album';
 import Albums from './Albums';
 import Footer from './Footer';
+import Header from './Header';
 import Links from './Links';
 import Podcasts from './Podcasts';
-import Header from './Header';
-import discography from './discography.yaml';
-
-import './App.css';
+import discography from '../data/discography.yaml';
 
 export default function App() {
   return (

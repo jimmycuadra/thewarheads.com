@@ -1,9 +1,12 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { Album, AlbumLink, AlbumModel } from './Album'
+
+import Album from './Album'
+import AlbumLink from './AlbumLink'
+import Model from '../models/Album'
 
 interface AlbumsProps {
-  discography: AlbumModel[],
+  discography: Model[],
 }
 
 function albumLinks(props: AlbumsProps) {

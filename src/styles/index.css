@@ -21,7 +21,7 @@ a:hover, a:active {
 }
 
 h2 {
-  background: url(./images/images/arrow.gif) no-repeat;
+  background: url(../images/images/arrow.gif) no-repeat;
   margin-top: 40px;
   padding-left: 40px;
 }
@@ -44,7 +44,7 @@ ul {
 }
 
 header {
-  background: #000000 url(./images/images/new_background.jpg) no-repeat;
+  background: #000000 url(../images/images/new_background.jpg) no-repeat;
   height: 400px;
   margin-bottom: 40px;
 }
@@ -57,7 +57,7 @@ header {
 }
 
 #logo span, #logo a {
-	background: url(./images/images/logo.gif) no-repeat;
+	background: url(../images/images/logo.gif) no-repeat;
 	border-style: none;
 	display: block;
 	height: 27px;
