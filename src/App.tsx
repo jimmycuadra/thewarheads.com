@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 
 import About from './About';
+import { AlbumModel } from './Album';
 import Albums from './Albums';
 import Footer from './Footer';
 import Links from './Links';
@@ -25,7 +26,7 @@ export default function App() {
             <About />
           </Route>
           <Route path="/albums">
-            <Albums discography={discography} />
+            <Albums discography={AlbumModel.fromRaw(discography)} />
           </Route>
           <Route path="/links">
             <Links />
