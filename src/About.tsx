@@ -3,13 +3,6 @@ import React from 'react';
 export default function About() {
   return (
     <React.Fragment>
-      <p>The Warheads were formed in 1990.<br />
-      They record exclusively at RADICAL SOUND STUDIOS and THE TRENCHES.<br />
-      All songs are Composed,Performed and Assembled by The Warheads<br />
-      All songs are Produced by The Warheads<br />
-      Music Published by: Drop the Bomb Music BMI 2016<br />
-      Music Distribution by THE ORCHARD</p>
-
       <h2>About</h2>
 
       <p>The Warheads are a San Francisco Bay Area production team. Although we are musicians, we specialize in the manipulation, re-arranging, and re-mixing of original compositions, unique sounds, and high-quality audio.</p>

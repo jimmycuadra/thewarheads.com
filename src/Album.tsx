@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { AlbumData } from './discography.yaml';
 
 interface AlbumProps {
@@ -48,7 +49,11 @@ export default class Album extends React.Component<AlbumProps> {
 
   render() {
     return (
-      <li><a href={this.slug}>{this.props.albumData.title} ({this.year})</a></li>
+      <li>
+        <Link to={"albums/" + this.slug}>
+          {this.props.albumData.title} ({this.year})
+        </Link>
+      </li>
     );
   }
 }

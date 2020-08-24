@@ -13,6 +13,7 @@
     "bootstrap": "^4.5.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "typescript": "^3.7.5"
   },
@@ -39,6 +40,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-router-dom": "^5.1.5",
     "react-app-rewire-yaml": "^1.1.0",
     "react-app-rewired": "^2.1.6",
     "react-snap": "^1.23.0"
