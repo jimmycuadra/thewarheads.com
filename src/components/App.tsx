@@ -10,6 +10,7 @@ import AlbumModel from '../models/Album';
 import Albums from './Albums';
 import Footer from './Footer';
 import Header from './Header';
+import Home from './Home';
 import Links from './Links';
 import Podcasts from './Podcasts';
 import discography from '../data/discography.yaml';
@@ -33,14 +34,7 @@ export default function App() {
             <Podcasts />
           </Route>
           <Route path="/">
-            <h2>The Warheads</h2>
-
-            <p>The Warheads were formed in 1990.<br />
-            They record exclusively at RADICAL SOUND STUDIOS and THE TRENCHES.<br />
-            All songs are Composed,Performed and Assembled by The Warheads<br />
-            All songs are Produced by The Warheads<br />
-            Music Published by: Drop the Bomb Music BMI 2016<br />
-            Music Distribution by THE ORCHARD</p>
+            <Home />
           </Route>
         </Switch>
         <Footer />

@@ -6,6 +6,7 @@ export interface AlbumData {
   apple?: string,
   credits?: string[],
   musicians?: string[]
+  image: string,
   tracks: TrackData[],
 }
 

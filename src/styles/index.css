@@ -80,14 +80,34 @@ a.active {
   text-decoration: underline;
 }
 
+.intro-container {
+  text-align: center;
+}
+
+.intro {
+  display: inline-block;
+  text-align: left;
+}
+
 .album-links {
   list-style: none;
 }
 
 .album-links li {
   float: left;
+  margin: 10px 0;
   text-align: center;
   width: 33%;
+}
+
+.album-links img {
+  border: 8px #666 solid;
+}
+
+.album-art {
+  float: right;
+  margin-right: 60px;
+  max-width: 300px;
 }
 
 .clear {

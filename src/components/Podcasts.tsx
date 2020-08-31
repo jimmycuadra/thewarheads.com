@@ -3,7 +3,7 @@ import React from 'react';
 export default function Podcasts() {
   return (
     <React.Fragment>
-      <h2>Internet Radios and Podcasts</h2>
+      <h2>Internet Radio and Podcasts</h2>
 
       <ul>
         <li><a href="http://globallyrelaxed.com">http://globallyrelaxed.com</a></li>

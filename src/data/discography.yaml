@@ -831,6 +831,7 @@
     - "All songs are Composed,Performed and Assembled by The Warheads"
     - "Produced by The Warheads"
     - "Music Published by: Drop the Bomb Music BMI 2015"
+  image: "war-red"
   tracks:
     - title: "La nuit appartient à Lily Niagara"
       time: "7:04"
@@ -841,6 +842,7 @@
     - "All songs are Composed,Performed and Assembled by The Warheads"
     - "Produced by The Warheads"
     - "Music Published by: Drop the Bomb Music BMI 2015"
+  image: "war-red"
   tracks:
     - title: "La passion de St. Claire"
       time: "6:51"
@@ -851,6 +853,7 @@
     - "All songs are Composed,Performed and Assembled by The Warheads"
     - "Produced by The Warheads"
     - "Music Published by: Drop the Bomb Music BMI 2015"
+  image: "war-red"
   tracks:
     - title: "Fiel"
       time: "6:45"
@@ -861,6 +864,7 @@
     - "All songs are Composed,Performed and Assembled by The Warheads"
     - "Produced by The Warheads"
     - "Music Published by: Drop the Bomb Music BMI 2015"
+  image: "war-red"
   tracks:
     - title: "Love Music"
       time: "7:18"
@@ -871,6 +875,7 @@
     - "All songs are Composed,Performed and Assembled by The Warheads"
     - "Produced by The Warheads"
     - "Music Published by: Drop the Bomb Music BMI 2015"
+  image: "war-red"
   tracks:
     - title: "Havana Nights"
       time: "5:37"
@@ -881,6 +886,7 @@
     - "All songs are Composed,Performed and Assembled by The Warheads"
     - "Produced by The Warheads"
     - "Music Published by: Drop the Bomb Music BMI 2015"
+  image: "war-red"
   tracks:
     - title: "Frankie and Johnny"
       time: "5:52"
@@ -891,6 +897,7 @@
     - "All songs are Composed,Performed and Assembled by The Warheads"
     - "Produced by The Warheads"
     - "Music Published by: Drop the Bomb Music BMI 2015"
+  image: "war-red"
   tracks:
     - title: "Familiar Fruit"
       time: "5:29"
@@ -901,6 +908,7 @@
     - "All songs are Composed,Performed and Assembled by The Warheads"
     - "Produced by The Warheads"
     - "Music Published by: Drop the Bomb Music BMI 2015"
+  image: "war-red"
   tracks:
     - title: "My Dinner with Frida"
       time: "7:09"
@@ -911,6 +919,7 @@
     - "All songs are Composed,Performed and Assembled by The Warheads"
     - "Produced by The Warheads"
     - "Music Published by: Drop the Bomb Music BMI 2015"
+  image: "war-gray"
   tracks:
     - title: "Indara"
       time: "6:29"
@@ -921,6 +930,7 @@
     - "All songs are Composed,Performed and Assembled by The Warheads"
     - "Produced by The Warheads"
     - "Music Published by: Drop the Bomb Music BMI 2015"
+  image: "war-gray"
   tracks:
     - title: "Back Door"
       time: "6:44"
@@ -931,12 +941,14 @@
     - "All songs are Composed,Performed and Assembled by The Warheads"
     - "Produced by The Warheads"
     - "Music Published by: Drop the Bomb Music BMI 2015"
+  image: "war-gray"
   tracks:
     - title: "Down Argentine Way"
       time: "6:30"
 - title: "Refrain 1959"
   date: "2015-12-31"
   apple: "https://music.apple.com/us/album/refrain-1959-single/1067558883"
+  image: "war-red"
   credits:
     - "All songs are Composed,Performed and Assembled by The Warheads"
     - "Produced by The Warheads"
@@ -951,12 +963,14 @@
     - "All songs are Composed,Performed and Assembled by The Warheads"
     - "Produced by The Warheads"
     - "Music Published by: Drop the Bomb Music BMI 2015"
+  image: "war-gray"
   tracks:
     - title: "Miss Doda Has Left the Stage"
       time: "7:36"
 - title: "Die Leidenschaft Von St. Veronika"
   date: "2016-01-01"
   apple: "https://music.apple.com/us/album/die-leidenschaft-von-st-veronika-single/1066947776"
+  image: "war-gray"
   credits:
     - "All songs are Composed,Performed and Assembled by The Warheads"
     - "Produced by The Warheads"
@@ -967,48 +981,56 @@
 - title: "Summer Samba"
   date: "2016-08-29"
   apple: "https://music.apple.com/us/album/summer-samba-single/1149489889"
+  image: "war-purple"
   tracks:
     - title: "Summer Samba"
       time: "5:20"
 - title: "Samba Suave"
   date: "2016-08-29"
   apple: "https://music.apple.com/us/album/samba-suave-single/1149458789"
+  image: "war-purple"
   tracks:
     - title: "Samba Suave"
       time: "5:29"
 - title: "Samba De Alma Negra (feat. Gregg Mazel)"
   date: "2016-08-29"
   apple: "https://music.apple.com/us/album/samba-de-alma-negra-feat-gregg-mazel-single/1149489904"
+  image: "war-purple"
   tracks:
     - title: "Samba De Alma Negra (feat. Gregg Mazel)"
       time: "6:24"
 - title: "Our Last Samba (feat. Gregg Mazel)"
   date: "2016-08-29"
   apple: "https://music.apple.com/us/album/our-last-samba-feat-gregg-mazel-single/1153281416"
+  image: "war-purple"
   tracks:
     - title: "Our Last Samba (feat. Gregg Mazel)"
       time: "6:24"
 - title: "Fashion with Strings"
   date: "2016-08-29"
   apple: "https://music.apple.com/us/album/fashion-with-strings-single/1153281562"
+  image: "war-purple"
   tracks:
     - title: "Fashion with Strings"
       time: "5:56"
 - title: "Bombay Samba"
   date: "2016-08-29"
   apple: "https://music.apple.com/us/album/bombay-samba-single/1149516183"
+  image: "war-purple"
   tracks:
     - title: "Bombay Samba"
       time: "5:20"
 - title: "All Summer Long"
   date: "2016-08-29"
   apple: "https://music.apple.com/us/album/all-summer-long-single/1149516701"
+  image: "war-purple"
   tracks:
     - title: "All Summer Long"
       time: "6:24"
 - title: "Underage for Life"
   date: "2019-04-24"
   apple: "https://music.apple.com/us/album/underage-for-life-single/1466568658"
+  image: "gray-moon"
   tracks:
     - title: "Underage for Life"
       time: "6:24"
@@ -1018,6 +1040,7 @@
   tracks:
     - title: "Fatal Woman"
       time: "6:24"
+  image: "gray-moon"
 - title: "Daughters of the Desert"
   date: "2019-04-27"
   apple: "https://music.apple.com/us/album/daughters-of-the-desert-single/1467850079"

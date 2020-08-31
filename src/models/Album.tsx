@@ -27,6 +27,7 @@ export default class Album {
   apple: string | undefined;
   credits: string[]| undefined;
   musicians: string[] | undefined;
+  imageSlug: string | undefined;
   tracks: TrackData[];
 
   day: string;
@@ -60,6 +61,7 @@ export default class Album {
       .replace(whitespace, "-")
       .replace(nonWords, "")
       .replace(multipleDashes, "-");
+    this.imageSlug = albumData.image || this.slug;
   }
 }
 

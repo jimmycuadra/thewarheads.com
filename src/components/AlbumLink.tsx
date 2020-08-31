@@ -12,7 +12,7 @@ export default function AlbumLink(props: AlbumLinkProps) {
     <li>
       <Link to={"albums/" + props.albumModel.slug}>
         <img
-          src="/images/war-1-220x220.jpg"
+          src={`/images/${props.albumModel.imageSlug}-square.jpg`}
           width="220"
           height="220"
           alt={props.albumModel.title}

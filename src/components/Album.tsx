@@ -23,6 +23,13 @@ export default function Album(props: AlbumProps) {
 
         <p>Released {albumModel.monthName} {albumModel.day}, {albumModel.year}</p>
 
+        <img
+          src={`/images/${albumModel.imageSlug}.jpg`}
+          alt={albumModel.title}
+          title={albumModel.title}
+          className="album-art"
+        />
+
         { (albumModel.amazon || albumModel.apple) && <h2>Listen</h2> }
 
         {
@@ -57,7 +64,7 @@ export default function Album(props: AlbumProps) {
           </React.Fragment>
         }
 
-        <h2>Track listing</h2>
+        <h2 className="clear">Track listing</h2>
 
         <table>
           <tr>
