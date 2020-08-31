@@ -23,9 +23,10 @@ export default function Albums(props: AlbumsProps) {
       <Route exact path="/albums">
         <h2>Albums</h2>
 
-        <ul>
+        <ul className="album-links">
           {albumLinks(props)}
         </ul>
+        <div className="clear"></div>
       </Route>
       <Route path="/albums/:slug">
         <Album discography={props.discography} />

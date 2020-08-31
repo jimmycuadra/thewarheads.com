@@ -21,7 +21,7 @@ a:hover, a:active {
 }
 
 h2 {
-  background: url(../images/images/arrow.gif) no-repeat;
+  background: url(../images/arrow.gif) no-repeat;
   margin-top: 40px;
   padding-left: 40px;
 }
@@ -34,17 +34,13 @@ th {
   text-align: left;
 }
 
-ul {
-  columns: 2;
-}
-
 .container {
   margin: 0 auto;
   width: 1024px;
 }
 
 header {
-  background: #000000 url(../images/images/new_background.jpg) no-repeat;
+  background: #000000 url(../images/new_background.jpg) no-repeat;
   height: 400px;
   margin-bottom: 40px;
 }
@@ -57,7 +53,7 @@ header {
 }
 
 #logo span, #logo a {
-	background: url(../images/images/logo.gif) no-repeat;
+	background: url(../images/logo.gif) no-repeat;
 	border-style: none;
 	display: block;
 	height: 27px;
@@ -82,4 +78,18 @@ footer {
 
 a.active {
   text-decoration: underline;
+}
+
+.album-links {
+  list-style: none;
+}
+
+.album-links li {
+  float: left;
+  text-align: center;
+  width: 33%;
+}
+
+.clear {
+  clear: both;
 }
