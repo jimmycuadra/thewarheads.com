@@ -21,6 +21,8 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "postbuild": "react-snap",
+    "deploy": "aws s3 sync --delete build s3://www.thewarheads.com",
+    "postdeploy": "aws cloudfront create-invalidation --distribution-id E9OOZW4YODYHJ --paths '/*'",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject"
   },
