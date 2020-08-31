@@ -35,7 +35,8 @@ export default class Album {
   slug: string;
 
   static fromRaw(discography: AlbumData[]): Album[] {
-    return discography.map((albumData) => new Album(albumData));
+    return discography.map((albumData) => new Album(albumData))
+      .sort((a, b) => b.date.localeCompare(a.date));
   }
 
   constructor(albumData: AlbumData) {
